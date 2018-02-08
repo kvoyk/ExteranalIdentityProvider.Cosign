@@ -4,7 +4,8 @@ Read about Cosign here http://weblogin.org/
 
 Cosing Identity Provider redirects requests for authentication to Cosign server and gets authenticated user identity from Cosign server through tcp backchannel.
 
-You will need to install Cosign handler to redirect request from Cosign server back to Cosign Identity Provider.
+You will need to install Cosign handler on your web site (install dll in Gac and configure IIS handler) to redirect request from Cosign server back to Cosign Identity Provider. 
+
 
 Cosign Identity Provider uses Redis for storing authenticated users https://github.com/MicrosoftArchive/redis/releases
 
